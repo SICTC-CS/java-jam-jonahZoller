@@ -19,6 +19,10 @@
         padding-left: 105px;
     }
     
+    header a{
+        text-decoration: none;
+    }
+
     main{
         padding-left: 0em;
         padding-right: 0em;
@@ -197,6 +201,10 @@ header{
     text-align: center;
 }
 
+header a{
+    text-decoration: none;
+}
+
 main{
     padding-left: 0em;
     padding-right: 0em;
@@ -288,6 +296,7 @@ nav li{
     padding-right: 1em;
     width: 100%;
     border-bottom: none;
+    display: inline;
 }
 
 ul{
@@ -394,6 +403,10 @@ footer{
 
     nav ul{
         flex-direction: column;
+    }
+
+    nav li{
+        display: block;
     }
 
     
